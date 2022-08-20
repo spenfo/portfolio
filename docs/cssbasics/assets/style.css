@@ -1,0 +1,170 @@
+h1{
+	text-align: center;
+}
+
+.pad1{
+	background-color: #000000;
+	color: #FFFFFF;
+	border: dashed 5px #FF0000;
+	padding: 20px 20px 20px 20px;
+	width: 300px;
+}
+
+
+.pad2{
+	background-color: #000000;
+	color: #FFFFFF;
+	border: dashed 5px #FF0000;
+	padding: 20px 60px 20px 60px;
+	width: 300px;
+}
+
+.pad3{
+	background-color: #000000;
+	color: #FFFFFF;
+	border: dashed 5px #FF0000;
+	padding: 100px 80px 60px 40px;
+	width: 300px;
+}
+
+.mar1{
+	background-color: #00FF00;
+	border: dotted 5px #0000FF;
+	padding: 20px 20px 20px 20px;
+	width: 300px;
+}
+
+.mar2{
+	background-color: #00FF00;
+	border: dotted 5px #0000FF;
+	padding: 20px 20px 20px 20px;
+	width: 300px;
+	margin-left: 60px;
+}
+
+.mar3{
+	background-color: #00FF00;
+	border: dotted 5px #0000FF;
+	padding: 20px 20px 20px 20px;
+	width: 300px;
+	margin-left: 180px;
+}
+
+.hov1{
+	background-color: #FFFF00;
+	border: solid 2px #000000;
+	width: 400px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	
+}
+
+.hov2{
+	background-color: #FFFF00;
+	border: solid 2px #000000;
+	width: 400px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.hov2:hover{
+	background-color: #00FFFF;
+	transition-duration: 4s;
+}
+
+.hov3{
+	background-color: #FFFF00;
+	border: solid 2px #000000;
+	width: 400px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.hov3:hover{
+	width: 600px;
+	transition-duration: 2s;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px 10px 10px 10px;
+}
+
+.td1{
+	color: #0000FF;
+	background-color: #FFFFFF;
+}
+
+.td2{
+	color: #555DF7;
+	background-color: #FFFFED;
+}
+
+.td3{
+	color: #006855;
+	background-color: #E7EFF6;
+}
+
+.td4{
+	color: #FF0000;
+	background-color: #F00A64;
+}
+
+.td5{
+	color: #F0D164;
+	background-color: #7ED164;
+}
+
+div.relative{
+	  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #000000;
+  left: 30px;
+}
+
+div.absolute{
+	position: absolute;
+	top: 80px;
+	right: 0;
+	width: 200px;
+	height: 100px;
+	border: 3px solid #000000;
+}
+
+.question{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+.horizontal1{
+	font-size: 32px;
+	text-shadow: 2px 2px;
+}
+
+.horizontal2{
+	font-size: 32px;
+	text-shadow: 7px 2px;
+}
+
+.vertical1{
+	font-size: 32px;
+	text-shadow: 2px 2px;
+}
+
+.vertical2{
+	font-size: 32px;
+	text-shadow: 2px 7px;
+}
+
+.blur1{
+	font-size: 32px;
+	text-shadow: 2px 2px 3px;
+}
+
+.blur2{
+	font-size: 32px;
+	text-shadow: 2px 2px 10px;
+}

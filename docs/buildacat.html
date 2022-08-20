@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Build-a-Cat</title>
+<link rel="icon" type="image/x-icon" href="assets/SFICON1-30-22.png">
+<link rel="stylesheet" href="assets/style.css">
+<meta name="description" 
+content="Cat builder by Spencer Fox">
+<meta name="keywords" content="cats, portfolio, Spencer Fox">
+<meta name="author" content= "Spencer Fox">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header>
+<h1>Build-a-Cat</h1>
+
+<div class="col-12 col-s-12">
+
+<div class="icon">
+<img src="assets/SFICON1-30-22.png" alt="SF ICON" width="32" height="32">
+</div>
+
+<ul>
+	<li><a href="index.html" title="Go to SF Portfolio home">Home</a></li>
+	<li><a href="howtopublish.html" 
+	title="Go to SF Portfolio publishing on the web">
+	Publishing on the Web</a></li>
+	<li><a href="apex/index.html" 
+	title="Go to SF Portfolio Apex Legends article">
+	What is Apex Legends?</a></li>
+	<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">More</a>
+    <div class="dropdown-content">
+      <a href="cssbasics/index.html" 
+	title="Go to SF Portfolio CSS Basics page">
+	CSS Basics</a>
+      <a href="story.html">Story Time!</a>
+      <a href="slideshow.html">Slideshow</a>
+	  <a href="buildacat.html">Build-a-Cat</a>
+    </div>
+  </li>
+</ul>
+</div>
+</header>
+
+<div class="col-3">
+
+
+</div>
+
+<div class="col-6">
+
+<form method="post" action="https://icarus.cs.weber.edu/~linda/cs2350/submit.php">
+
+<h2 class="center">Build Your Dream Cat!</h2>
+
+<section>
+	<h3>Basic Info</h3>
+	
+	<p><label for="catPre">Cat Name Prefix (if applicable)</label>
+	<input type="text" name="catPre" id="catPre"  /></p>
+	
+	<p><label for="catName">Cat Name</label>
+	<input type="text" name="catName" id="catName"  /></p>
+	
+	<p><label for="catPlace">Place of Origin</label>
+	<input type="text" name="catPlace" id="catPlace"  /></p>
+</section>
+
+<section>
+	<input type="checkbox" id="bioCheck" name="bioCheck">
+	<label for="bioCheck" class="catCheckBoxLabels">Add Cat Bio</label>
+	<div id="bioContent">
+		<p><label for="bio">Cat Bio</label>
+		<input type="text" name="bio" id="bio"  /></p>
+	</div>
+</section>
+
+<section>
+	<input type="checkbox" id="friendsCheck" name="friendsCheck">
+	<label for="friendsCheck" class="catCheckBoxLabels">Add Cat Friends List<label>
+	<div id="friendsContent">
+		<p><label for="friends">Cat Friends</label>
+		<input type="text" name="friends" id="friends"  /></p>
+	</div>
+</section>
+
+<section>
+	<h3>Looks</h3>
+	
+	<label for="eyeColor">Eye Color</label>
+	<select id="eyeColor" name="eyeColor">
+		<option value="blue">Blue</option>
+		<option value="black">Black</option>
+		<option value="green">Green</option>
+		<option value="brown">Brown</option>
+		<option value="red">Red</option>
+		<option value="hazel">Hazel</option>
+	</select>
+	
+	<p>
+	<label for="coatColor">Coat Color</label>
+	<select id="coatColor" name="coatColor">
+		<option value="white">White</option>
+		<option value="black">Black</option>
+		<option value="brown">Brown</option>
+		<option value="orange">Orange</option>
+		<option value="gray">Gray</option>
+	</select>
+	<label for="coatLength">Short Coat</label><input type="radio" id="coat1" name="coatLength" value="short">
+	<label for="coatLength">Long Coat</label><input type="radio" id="coat2" name="coatLength" value="long">
+	</p>
+	
+	<p>
+	<label for="stripes" class="checkbox">Striped Coat?</label><input type="checkbox" id="stripes" name="stripes">
+	</p>
+	
+	<p>
+	<label for="tailLength">Short Tail</label><input type="radio" id="tail1" name="tailLength" value="short">
+	<label for="tailLength">Long Tail</label><input type="radio" id="tail2" name="tailLength" value="long">
+	</p>
+	
+</section>
+
+
+<section>
+	<h3>Personality</h3>
+	
+	<p>
+	<label for="playfulnessRating">Playfulness Rating (1-10)</label>
+	<input type="text" name="playfulnessRating" id="playfulnessRating" class="quantity">
+	</p>
+	
+	<p>
+	<label for="toys">Number of Toys</label>
+	<input type="text" name="toys" id="toys" class="cost" readonly>
+	</p>
+	
+	<p>
+	<label for="likesFoodRating">Food Enjoyment Rating (1-10)</label>
+	<input type="text" name="likesFoodRating" id="likesFoodRating" class="quantity">
+	</p>
+	
+	<p>
+	<label for="meals">Number of Meals Per Day</label>
+	<input type="text" name="meals" id="meals" class="cost" readonly>
+	</p>
+	
+	<p>
+	<label for="energyRating">Energy Rating (1-10)</label>
+	<input type="text" name="energyRating" id="energyRating" class="quantity">
+	</p>
+	
+	<p>
+	<label for="naps">Number of Naps Per Day</label>
+	<input type="text" name="naps" id="naps" class="cost" readonly>
+	</p>
+</section>
+
+<section>
+	<h3>Cost of Living</h3>
+	
+	<p>
+	<label for="toysCost">Cost of Toys</label>
+	<input type="text" name="toysCost" id="toysCost" class="cost" readonly>
+	</p>
+	
+	<p>
+	<label for="foodCost">Cost of Food (per month)</label>
+	<input type="text" name="foodCost" id="foodCost" class="cost" readonly>
+	</p>
+	
+	<p>
+	<label for="totalCost">Total</label>
+	<input type="text" name="totalCost" id="totalCost" class="cost" readonly>
+	</p>
+</section>
+
+<section>
+	<h2 class="center">Submit Cat Info</h2>
+	
+	<input type="submit" id="submit" name="submit" value="Submit">
+</section>
+
+</form>
+</div>
+<div class="col-3">
+
+
+</div>
+
+<script src="assets/catScript.js"></script>
+</body>
+</html>

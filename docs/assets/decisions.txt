@@ -1,0 +1,63 @@
+Common Style Decisions for Website
+
+color scheme:
+
+	Green(
+	Darkest: #03300F
+	Dark: #055C1C
+	Light: #0ABF3A
+	Lightest: #BFF2CD
+	)
+
+	Navy(
+	Darkest: #03223D
+	Dark: #043D6E
+	Light: #066CC4
+	Lightest: #9BCAF2
+	)
+
+background color/image: 
+
+	Body: Darkest Navy: #03223D
+	Header: light navy: #066CC4
+	header li a: Dark navy: #043D6E
+
+font style: 
+
+	Ubuntu-B.ttf
+
+text color:
+
+	Body: Lightest Navy: #9BCAF2
+	Header: Lightest Green: #BFF2CD
+
+link style: 
+
+	lightest Green: #0ABF3A
+	no underline
+	
+
+link style on hover:
+
+	Body: underline
+	Header: 
+		background-color: #043D6E 
+		text color: #03300F
+
+h1-h6 style:
+	
+	h1-h6:
+	Bold 
+	Default Size
+	
+	h1:
+	Centered
+
+margins:
+
+	0
+
+padding:
+
+	top and bottom: 12px
+	left and right: 120px
