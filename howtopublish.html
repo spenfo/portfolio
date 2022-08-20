@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Web Publishing HowTo</title>
+<link rel="icon" type="image/x-icon" href="assets/SFICON1-30-22.png">
+<link rel="stylesheet" href="assets/style.css">
+<meta name="description" 
+content="How to publish your website on the internet">
+<meta name="keywords" content="web design, publishing, linux server, Spencer Fox">
+<meta name="author" content= "Spencer Fox">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header>
+<h1>How To Publish Your Website Using Icarus Web Server</h1>
+
+<div class="col-12 col-s-12">
+
+<div class="icon">
+<img src="assets/SFICON1-30-22.png" alt="SF ICON" width="32" height="32">
+</div>
+
+<ul>
+	<li><a href="index.html" title="Go to SF Portfolio home">Home</a></li>
+	<li><a href="howtopublish.html" 
+	title="Go to SF Portfolio publishing on the web">
+	Publishing on the Web</a></li>
+	<li><a href="apex/index.html" 
+	title="Go to SF Portfolio Apex Legends article">
+	What is Apex Legends?</a></li>
+	<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">More</a>
+    <div class="dropdown-content">
+      <a href="cssbasics/index.html" 
+	title="Go to SF Portfolio CSS Basics page">
+	CSS Basics</a>
+      <a href="story.html">Story Time!</a>
+      <a href="slideshow.html">Slideshow</a>
+	  <a href="buildacat.html">Build-a-Cat</a>
+    </div>
+  </li>
+</ul>
+</div>
+</header>
+
+
+<h2>Download and Login</h2>
+
+<p>First you'll want to download cyberduck.io so you can transfer your files 
+securly to the public server. You can download it 
+<a href="https://cyberduck.io/download/" title="Go to cyberduck.io download" target="_blank">
+here</a> for free.</p>
+
+<p>Once you've downloaded that program, run it and then click the
+"Open Connection" button in the top left hand corner.</p>
+
+<img src="assets/cyberduckhome.PNG" alt="Home page of Cyberduck application"
+width="612" height="427">
+
+<p>Once you've clicked "Open Connection" Cyberduck will ask you what server
+you're trying to connect to. First you'll need to specify the protocol you're using.
+In the drop down list at the very top, select the "SFTP (SSH File Transfer Protocol)"
+option. Then in the "Server:" box type "icarus.cs.weber.edu" and set the "Port" 
+option to "22". Next you'll need to enter the username and password
+that Weber State has provided you. Your username will be your initials
+followed by the last 5 digits of your W# (John Doe - jd34567). Your password
+will be your full first name followed by 'cs!' (John Doe - Johncs!). Make
+sure to capitalize your name in the password or else it won't work! Once you 
+have all of your information entered correctly click the "Connect" button
+at the bottom right.</p>
+
+<img src="assets/cyberducklogin.PNG" alt="Login page of Cyberduck application"
+width="611" height="426">
+
+<h2>Uploading Files</h2>
+
+<p>Now that you've entered your information and logged in, we need to upload our
+files to the server! You're page will look like this now. You'll notice we have
+a file in the window called "public_html". You need to double click on this 
+file to navigate into it.</p>
+
+<img src="assets/cyberduckfiles.PNG" alt="File page of Cyberduck application"
+width="651" height="482">
+
+<p>Awesome! You're doing great. Now you need to click on the "Upload" button
+in the top right hand corner. Find the files you want to upload in the 
+popup window, highlight them, then click "Choose". You can upload whole folders or just 
+one file at a time using this method.</p>
+
+<img src="assets/cyberduckupload.PNG" alt="Upload page of Cyberduck application"
+width="669" height="430">
+
+<p>Here's a side by side comparison of my local file explorer and Cyberduck 
+after I uploaded all of my files. Make sure you don't forget to upload any 
+files or your site won't work as intended.</p>
+
+<img src="assets/cyberduckcompare.PNG" alt="Comparing local file system with
+Cyberduck file system"
+width="611" height="646">
+
+<h2>Accessing Your Website Using URLs</h2>
+
+<p>Accessing your website is easy, you just need to compose a proper URL in a 
+web browser of your choice.
+These URLs will contain a protocol, hostname, username, path, and filename. 
+The protocol and hostname will always be the same but the username and so on 
+will cange depending on what page you access. I'll give some examples and you'll
+see what I mean.</p>
+
+<h3>URL:</h3>
+<p>https://icarus.cs.weber.edu/~sf05914/ (This URL will go to the index of the 
+"public_html" folder which is the highlighted "index.html" file in the image below.)</p>
+<h3>Location in Cyberduck</h3>
+<img src="assets/url1.PNG" alt="Location of URL 1 in the Cyberduck file system"
+width="651" height="482">
+
+<h3>URL:</h3>
+<p>https://icarus.cs.weber.edu/~sf05914//howtopublish.html</p>
+<h3>Location in Cyberduck</h3>
+<img src="assets/url2.PNG" alt="Location of URL 2 in the Cyberduck file system"
+width="651" height="482">
+
+<h3>URL:</h3>
+<p>https://icarus.cs.weber.edu/~sf05914//apex/index.html</p>
+<h3>Location in Cyberduck</h3>
+<img src="assets/url3.PNG" alt="Location of URL 3 in the Cyberduck file system"
+width="651" height="482">
+
+<img class="question" src="assets/question.png" alt="Question mark icon"
+width="32" height="32">
+
+<div class="row">
+<div class="col-12">
+<footer>
+<h6>© 2022 SJF Inc.</h6>
+</footer>
+</div>
+</div>
+
+</body>
+</html>
